@@ -118,10 +118,10 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--row', type=int, default=1)
     parser.add_argument('-c', '--column', type=int, default=4)
     parser.add_argument('--chromeVersion', action='store_true', help='Show chrome version')
-    parser.add_argument('--debug', action='store_true', help=argparse.SUPPRESS)
+    parser.add_argument('--installChromeDriver', action='store_true', help='Install chromedriver')
     args = parser.parse_args()
 
-    if args.debug:
+    if args.installChromeDriver:
         getChromeDriver(force=True)
         sys.exit(0)
 
