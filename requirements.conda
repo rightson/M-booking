@@ -1,0 +1,10 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+pillow=8.0.0=py37hca74424_0
+pip=20.2.3=py37_0
+pyinstaller=3.6=py37h62dcd97_5
+python=3.7.9=h60c2a47_0
+pywin32=227=py37he774522_1
+requests=2.24.0=py_0
+selenium=3.141.0=py37hfa6e2cd_1001
