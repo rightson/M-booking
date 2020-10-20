@@ -1,0 +1,9 @@
+*.swo
+*.swp
+*.spec
+__pycache__/
+bin/
+venv/
+build/
+dist/
+images/
