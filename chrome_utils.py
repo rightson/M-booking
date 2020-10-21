@@ -169,8 +169,11 @@ def getCode(driver, selector, imagePath, refreshSelector='', by=By.XPATH, archiv
                 getElement(driver, refreshSelector).click()
             else:
                 break
-        except:
+        except UnicodeEncodeError:
             continue
+        except Exception as e:
+            print('Error: %s' % e)
+            sys.exit(-1)
 
 
 def getAlert(driver, timeout=5):
