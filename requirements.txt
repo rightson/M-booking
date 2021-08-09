@@ -2,5 +2,5 @@ Pillow==8.0.0
 pytesseract==0.2.7
 selenium==3.141.0
 pyinstaller==4.0
-pywin32==228
+pywin32==301
 requests==2.24.0
