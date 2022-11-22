@@ -1,4 +1,4 @@
-Pillow==8.0.0
+Pillow==9.3.0
 pytesseract==0.2.7
 selenium==3.141.0
 pyinstaller==4.0
